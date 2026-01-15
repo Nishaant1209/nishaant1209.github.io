@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishaant Madhankumar</title>
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" sizes="32x32" href="favicon.png">
+<link rel="icon" sizes="16x16" href="favicon.png">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">NM</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero fade-in">
+  <div class="hero-text">
+    <h1>Nishaant Madhankumar</h1>
+
+    <p class="hero-subtitle">
+      Artificial Intelligence Graduate Student
+    </p>
+
+    <!-- CTA BUTTONS -->
+    <div class="hero-actions">
+
+      <!-- View Resume -->
+      <a
+        href="Nishaant_s_Resume (2).pdf"
+        target="_blank"
+        class="btn secondary"
+        onclick="trackResumeEvent('view')"
+      >
+        <i class="fa-solid fa-eye"></i>
+        View Resume
+      </a>
+
+    
+
+    </div>
+  </div>
+
+  <!-- LOCAL PROFILE IMAGE -->
+  <div class="hero-image">
+    <img
+      src="ukmsk.jpg"
+      alt="Nishaant Madhankumar profile photo"
+      loading="lazy"
+    />
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade-in">
+  <h2>About Me</h2>
+
+  <p>
+    I am a Master’s student specializing in Artificial Intelligence at the University
+    of Michigan–Dearborn, with hands-on experience applying AI and machine learning
+    techniques to real-world systems and user-facing applications.
+  </p>
+
+  <p>
+    My academic and project work has provided a strong foundation in applied machine
+    learning, model evaluation, and system-level integration across domains such as
+    intelligent vehicle systems, computer vision, natural language processing, and
+    recommendation systems.
+  </p>
+
+  <p>
+    Previously, I worked as a Research Assistant, contributing to machine learning–
+    driven research focused on reliability, deployment feasibility, and performance
+    assessment. This experience strengthened my ability to analyze large-scale datasets
+    and collaborate across interdisciplinary teams.
+  </p>
+
+  <p>
+    I am particularly interested in building AI systems that are reliable,
+    interpretable, and scalable, and I enjoy translating complex technical ideas into
+    practical, well-designed solutions with real-world impact.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section fade-in">
+  <h2>Technical Skills</h2>
+
+  <h3 class="skills-heading">Programming Languages</h3>
+  <div class="skills-grid">
+    <div class="skill"><i class="fa-brands fa-python"></i> Python</div>
+    <div class="skill"><i class="fa-solid fa-c"></i> C</div>
+    <div class="skill"><i class="fa-solid fa-code"></i> C++</div>
+    <div class="skill"><i class="fa-brands fa-java"></i> Java</div>
+    <div class="skill"><i class="fa-solid fa-database"></i> SQL</div>
+    <div class="skill"><i class="fa-solid fa-square-root-variable"></i> MATLAB</div>
+    <div class="skill"><i class="fa-solid fa-terminal"></i> Bash</div>
+  </div>
+
+  <h3 class="skills-heading">Frameworks & Libraries</h3>
+  <div class="skills-grid">
+    <div class="skill"><i class="fa-solid fa-brain"></i> TensorFlow</div>
+    <div class="skill"><i class="fa-solid fa-fire"></i> PyTorch</div>
+    <div class="skill"><i class="fa-solid fa-microchip"></i> TensorFlow Lite</div>
+    <div class="skill"><i class="fa-solid fa-eye"></i> OpenCV</div>
+    <div class="skill"><i class="fa-solid fa-chart-line"></i> Streamlit</div>
+    <div class="skill"><i class="fa-solid fa-chart-simple"></i> Matplotlib</div>
+    <div class="skill"><i class="fa-solid fa-bolt"></i> FastAPI</div>
+    <div class="skill"><i class="fa-solid fa-robot"></i> ROS2</div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section fade-in">
+  <h2>Professional Experience</h2>
+
+  <div class="experience-card">
+    <h3>Research Assistant</h3>
+    <span>University of Michigan–Dearborn | Nov 2024 – Nov 2025</span>
+
+    <p>
+      Contributed to academic and applied research efforts centered on the use of
+      machine learning techniques within intelligent vehicle systems. The work
+      involved studying how AI models behave under real-world constraints, with a
+      focus on reliability, robustness, and deployment feasibility.
+    </p>
+
+    <p>
+      Worked extensively with structured and unstructured datasets at scale, using
+      Python- and SQL-based workflows to explore data patterns, validate assumptions,
+      and support model evaluation. This included preparing datasets, running
+      experiments, and interpreting results to understand system-level performance.
+    </p>
+
+    <p>
+      Supported the evaluation of machine learning models by applying appropriate
+      performance metrics and conducting comparative analyses across different
+      configurations. These evaluations helped inform design decisions and highlight
+      trade-offs between accuracy, efficiency, and operational constraints.
+    </p>
+
+    <p>
+      Collaborated closely with researchers and engineers from different backgrounds,
+      ensuring that AI-driven components aligned with broader system requirements.
+      Summarized findings through technical documentation and research write-ups to
+      support ongoing studies and publications.
+    </p>
+  </div>
+</section>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section fade-in">
+  <h2>Projects & Publications</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card fade-card">
+      <h3>Wave & Play: Hand Gestures Redefining User Experience</h3>
+      <p>
+        Hand gesture–controlled virtual mouse and calculator using deep learning and
+        computer vision techniques. Published in an IEEE-affiliated venue.
+      </p>
+      <div class="project-links">
+        <a
+          href="https://www.researchgate.net/publication/380409833_Wave_Play_Hand_Gestures_Redefining_User_Experience"
+          target="_blank"
+          class="btn"
+        >
+          Publication
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-card">
+      <h3>DriveI – Intelligent Vehicle Assistant</h3>
+      <p>
+        Multimodal AI-driven vehicle assistant providing real-time traffic alerts and
+        safety notifications.
+      </p>
+      <div class="project-links">
+        <a
+          href="https://github.com/suryasubbu/DriveI"
+          target="_blank"
+          class="btn"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-card">
+      <h3>TasteCode – Food Recommendation Mobile Application</h3>
+      <p>
+        Android-based application integrating machine learning models with Firebase
+        to deliver personalized food recommendations.
+      </p>
+      <div class="project-links">
+        <a
+          href="https://github.com/Nishaant1209/TasteCode"
+          target="_blank"
+          class="btn"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-card">
+      <h3>Email Spam and Phishing Detection</h3>
+      <p>
+        Machine learning–based system for detecting spam and phishing emails through
+        feature extraction and classification.
+      </p>
+      <div class="project-links">
+        <a
+          href="https://github.com/Nishaant1209/Email-Spam-and-Phishing-Detection"
+          target="_blank"
+          class="btn"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-card">
+      <h3>Resume–Job Matcher Using NLP</h3>
+      <p>
+        NLP-based system that evaluates and ranks resumes against job descriptions
+        using semantic similarity and keyword alignment.
+      </p>
+      <div class="project-links">
+        <a
+          href="https://github.com/Nishaant1209/Resume-Job-Matcher"
+          target="_blank"
+          class="btn"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-card">
+      <h3>Lane Detection Using VGG16–UNet</h3>
+      <p>
+        Deep learning–based lane detection system using a VGG16–UNet architecture for
+        semantic segmentation in autonomous driving scenarios.
+      </p>
+      <div class="project-links">
+        <a
+          href="https://github.com/Nishaant1209/Lane-Detection-VGG16-UNET"
+          target="_blank"
+          class="btn"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
